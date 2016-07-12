@@ -1,7 +1,7 @@
 FROM golang:latest
 MAINTAINER Kyle Lucy
 
-CMD gcp-cups-connector -config-filename /config/gcp-cups-connector.config.json
+CMD gcp-cups-connector -config-filename /config/gcp-cups-connector.config.json --log-to-console
 
 RUN mkdir /config \
   && apt-get update \
