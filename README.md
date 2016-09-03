@@ -17,4 +17,4 @@ docker run -it \
   kmlucy/docker-cloudprint \
   gcp-connector-util init
 ```
-Uses google/cloud-print-connector
+Based on [google/cloud-print-connector](https://github.com/google/cloud-print-connector)
