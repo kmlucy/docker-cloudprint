@@ -1,4 +1,4 @@
-FROM golang:1-jessie
+FROM golang:1-stretch
 LABEL maintainer "Kyle Lucy <kmlucy@gmail.com>"
 
 RUN mkdir /config \
